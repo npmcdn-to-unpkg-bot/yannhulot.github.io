@@ -1,0 +1,277 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Interviews and failures (part 1) &#8211; Yann Hulot</title>
+<meta name="description" content="'You never fail until you stop trying' Albert Einstein">
+<meta name="keywords" content="interview, challenges, coding">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Interviews and failures (part 1)">
+<meta name="twitter:description" content="'You never fail until you stop trying' Albert Einstein">
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yannhulot.github.io/images/">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Interviews and failures (part 1)">
+<meta property="og:description" content="'You never fail until you stop trying' Albert Einstein">
+<meta property="og:url" content="http://yannhulot.github.io/blog/interviews-and-failures/">
+<meta property="og:site_name" content="Yann Hulot">
+
+
+
+
+
+<link rel="canonical" href="http://yannhulot.github.io/blog/interviews-and-failures/">
+<link href="http://yannhulot.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Yann Hulot Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://yannhulot.github.io/assets/css/main.css">
+
+<!-- Webfonts -->
+
+<!--<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+-->
+
+<script src="https://use.typekit.net/eha7mxl.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="http://yannhulot.github.io/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="http://yannhulot.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Masonry -->
+<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+
+<!-- Modernizr -->
+<script src="http://yannhulot.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://yannhulot.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://yannhulot.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://yannhulot.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://yannhulot.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://yannhulot.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://yannhulot.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+  <div class="navigation-wrapper">
+  	<nav role="navigation" id="site-nav" class="animated drop">
+  	    <ul>
+        
+  		    
+  		    <li><a href="http://yannhulot.github.io/" >Home</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/about/" >About</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/portfolio/" >Portfolio</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/blog/" >Blog</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/search/" >Search</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/contact/" >Contact</a></li>
+  		  
+  	    </ul>
+  	</nav>
+  </div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<header class="masthead">
+	<div class="wrap">
+      
+      
+	</div>
+</header><!-- /.masthead -->
+
+<div class="js-menu-screen menu-screen"></div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <ul class="entry-tags">
+          <li><a href="http://yannhulot.github.io/tags/#interview" title="Pages tagged interview">interview</a></li><li><a href="http://yannhulot.github.io/tags/#challenges" title="Pages tagged challenges">challenges</a></li><li><a href="http://yannhulot.github.io/tags/#coding" title="Pages tagged coding">coding</a></li>
+        </ul>
+        
+          <h1 class="entry-title">Interviews and failures (part 1)</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+          <img src="http://yannhulot.github.io/images/profile.jpg" class="bio-photo" alt="Yann Hulot bio photo"></a>
+        
+        <span class="author vcard">By <span class="fn">Yann Hulot</span></span>
+        <span class="entry-date date published"><time datetime="2016-06-02T00:00:00+10:00"><i class="fa fa-calendar-o"></i> June 02, 2016</time></span>
+        
+        <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
+        <span class="social-share-twitter">
+  <a href="https://twitter.com/intent/tweet?hashtags=interview,challenges,coding&amp;text=Interviews%20and%20failures%20(part%201)&amp;url=http://yannhulot.github.io/blog/interviews-and-failures/" title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i> Tweet</a>
+</span>
+<span class="social-share-facebook">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://yannhulot.github.io/blog/interviews-and-failures/" title="Share on Facebook" itemprop="Facebook"><i class="fa fa-facebook-square"></i> Like</a>
+</span>
+<span class="social-share-googleplus">
+  <a href="https://plus.google.com/share?url=http://yannhulot.github.io/blog/interviews-and-failures/" title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-google-plus-square"></i> +1</a>
+</span>
+<!-- /.social-share -->
+        
+      </footer>
+      <div class="entry-content">
+        <h1 id="how-many-times-have-you-failed-last-week">How many times have you failed last week?</h1>
+
+<p>I fail a lot. At least I try to do so everyday in my work and in my personal life. I know it sounds crazy but I believe that it is the only way to actually make any progress.</p>
+
+<p>Even though the majority of people seem afraid of failing you shouldn’t! Whatever it is that you want out of life, the ideal partner, money, your dream job or simply becoming an expert in your desired field, you will need to fail.</p>
+
+<p>The past two weeks have been incredible. One day, on a whim I decided to send my resume to a few recruitment companies that were advertising positions that I thought I could fulfil.</p>
+
+<p>I also added my resume to my <a href="http://seek.com.au">Seek</a> profile and to my surprise got a few hits. Two recruitment firms actually downloaded my resume directly from the site. As of now I am talking to 3 recruiters simultaneously. I had two coding challenges and I actually made it to the final round of interviews with one company. That company has yet to offer me a job but I remain hopeful and will follow up with them.</p>
+
+<h1 id="phone-screen-and-coding-challenges">Phone screen and coding challenges</h1>
+
+<p>The process of finding a job starts easily, you will usually send your resume on a job website. If lucky, recruiters may even contact you directly either through linkedIn or by downloading your resume from a resume database.</p>
+
+<h2 id="what-do-you-need-to-make-this-happen">What do you need to make this happen?</h2>
+
+<p>A great resume for starters and a complete LinkedIn profile. I won’t go into the details of resume writing or LinkedIn profile creation because there are already a lot of content on the web covering this topics but I am going to tell you the basics.</p>
+
+<h3 id="resume">Resume</h3>
+
+<p>There is no shame in copying your resume layout from somebody else. If you are like me, you must be reading blogs from other developers and some of them actually have their resume available for download. When you see one that you like, get it! I have gathered around 10 resumes that I thought had a great layout and showed them to my partner. We, then narrowed it down to 5, 2 and 1.</p>
+
+<p>After the selection was made I used OpenOffice to create my resume based on the layout we choose earlier and made copies of it in pdf and docx formats.</p>
+
+<p>Then I asked friends and families to proof-read it. A word of caution, It may be tempting to write your skills and duties with the buzzwords that the companies are looking for but remember that recruiters are humans too. Some them don’t know what xml or sass is and if they don’t understand what you did at your previous job, they may discard your resume because they won’t be able to see if you actually possess the skills for this new job.</p>
+
+<p>To summarize, you need to include enough buzzwords to pass the screening software but not too much so that the recruiter doesn’t understand a word about what your duties and skills are at your current job.</p>
+
+<p>To take this further, find 10 ads with similar descriptions: send 5 resumes with one layout and 5 resumes with another one. Wait for the responses if any. If you get more hits with one particular resume, then discard the other. Rinse and repeat. Take the resume that got you those screening phone calls or coding challenges and make it better. Make two versions of it and find 10 other ads. You know the rest.</p>
+
+<p>For those unfamiliar with this technique, it is widely used in advertising and is usually called: split testing. That technique helps you to see what works and what doesn’t. By continually refining the process and rewriting you resume, you will end up having no problem making it through the first stage of the interview process, that is getting the screening phone call from the recruiters.</p>
+
+<h3 id="linkedin-profile">LinkedIn profile</h3>
+
+<p>I find LinkedIn interesting for certain things but not really of any use at the beginning of the interview process. The problem is that the recruiter who works with you is not going to tell who his/her client is until later after you cleared another hurdle: the coding challenge. We will get to that in the next post. Nonetheless, if you want to make it as a software developer, you will need to have a complete profile with links to projects, testimonies from former colleagues or managers if possible and at least 50 connections. To get there, you need to make yourself known and send invitations to connect with you to people that you find interesting. In 3 words, grow your network! Having an incomplete profile could potentially disqualify you from getting through the first stage.</p>
+
+<h1 id="whats-next">What’s next?</h1>
+
+<p>In the next post, we will discuss what happens when you resume catches the eye of a recruiter.</p>
+
+<p>Until then, keep coding.</p>
+
+
+        
+          <div id="disqus_thread"></div><!-- /#disqus_thread -->
+          
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'yannhulot'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://yannhulot.github.io/blog/freecodecamp-second-challenge/" class="btn" title="Freecodecamp challenge&#58; Basic Javascript II">Previous</a>
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2016 Yann hulot. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" rel="nofollow">So Simple Theme</a>.</span>
+<div class="social-icons">
+	
+	<a href="https://facebook.com/yhulot" title="Yann hulot on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+	<a href="https://plus.google.com/+u/0/106713306439387750207/" title="Yann hulot on Google+" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+	<a href="https://linkedin.com/in/yannhulot" title="Yann hulot on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+	<a href="http://stackoverflow.com/users/6021287/yann-hulot" title="Yann hulot on StackExchange" target="_blank"><i class="fa fa-stack-exchange fa-2x"></i></a>
+	
+	
+	<a href="https://github.com/yannhulot" title="Yann hulot on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+	
+  
+	
+	<a href="https://codepen.io/yannhulot/" title="Yann hulot on Codepen" target="_blank"><i class="fa fa-codepen fa-2x"></i></a>
+  <a href="http://yannhulot.github.io/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script type="text/javascript">
+  var BASE_URL = 'http://yannhulot.github.io';
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://yannhulot.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://yannhulot.github.io/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>

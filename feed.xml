@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Yann Hulot</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://yannhulot.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://yannhulot.github.io" />
+<updated>2016-06-02T14:58:38+10:00</updated>
+<id>http://yannhulot.github.io/</id>
+<author>
+  <name>Yann hulot</name>
+  <uri>http://yannhulot.github.io/</uri>
+  <email>yhulot78410@gmail.com</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Interviews and failures (part 1)]]></title>
+  <link rel="alternate" type="text/html" href="http://yannhulot.github.io/blog/interviews-and-failures/" />
+  <id>http://yannhulot.github.io/blog/interviews-and-failures</id>
+  <published>2016-06-02T00:00:00+10:00</published>
+  <updated>2016-06-02T00:00:00+10:00</updated>
+  <author>
+    <name>Yann Hulot</name>
+    <uri>http://yannhulot.github.io</uri>
+    <email>yhulot78410@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h1 id=&quot;how-many-times-have-you-failed-last-week&quot;&gt;How many times have you failed last week?&lt;/h1&gt;
+
+&lt;p&gt;I fail a lot. At least I try to do so everyday in my work and in my personal life. I know it sounds crazy but I believe that it is the only way to actually make any progress.&lt;/p&gt;
+
+&lt;p&gt;Even though the majority of people seem afraid of failing you shouldn’t! Whatever it is that you want out of life, the ideal partner, money, your dream job or simply becoming an expert in your desired field, you will need to fail.&lt;/p&gt;
+
+&lt;p&gt;The past two weeks have been incredible. One day, on a whim I decided to send my resume to a few recruitment companies that were advertising positions that I thought I could fulfil.&lt;/p&gt;
+
+&lt;p&gt;I also added my resume to my &lt;a href=&quot;http://seek.com.au&quot;&gt;Seek&lt;/a&gt; profile and to my surprise got a few hits. Two recruitment firms actually downloaded my resume directly from the site. As of now I am talking to 3 recruiters simultaneously. I had two coding challenges and I actually made it to the final round of interviews with one company. That company has yet to offer me a job but I remain hopeful and will follow up with them.&lt;/p&gt;
+
+&lt;h1 id=&quot;phone-screen-and-coding-challenges&quot;&gt;Phone screen and coding challenges&lt;/h1&gt;
+
+&lt;p&gt;The process of finding a job starts easily, you will usually send your resume on a job website. If lucky, recruiters may even contact you directly either through linkedIn or by downloading your resume from a resume database.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-do-you-need-to-make-this-happen&quot;&gt;What do you need to make this happen?&lt;/h2&gt;
+
+&lt;p&gt;A great resume for starters and a complete LinkedIn profile. I won’t go into the details of resume writing or LinkedIn profile creation because there are already a lot of content on the web covering this topics but I am going to tell you the basics.&lt;/p&gt;
+
+&lt;h3 id=&quot;resume&quot;&gt;Resume&lt;/h3&gt;
+
+&lt;p&gt;There is no shame in copying your resume layout from somebody else. If you are like me, you must be reading blogs from other developers and some of them actually have their resume available for download. When you see one that you like, get it! I have gathered around 10 resumes that I thought had a great layout and showed them to my partner. We, then narrowed it down to 5, 2 and 1.&lt;/p&gt;
+
+&lt;p&gt;After the selection was made I used OpenOffice to create my resume based on the layout we choose earlier and made copies of it in pdf and docx formats.&lt;/p&gt;
+
+&lt;p&gt;Then I asked friends and families to proof-read it. A word of caution, It may be tempting to write your skills and duties with the buzzwords that the companies are looking for but remember that recruiters are humans too. Some them don’t know what xml or sass is and if they don’t understand what you did at your previous job, they may discard your resume because they won’t be able to see if you actually possess the skills for this new job.&lt;/p&gt;
+
+&lt;p&gt;To summarize, you need to include enough buzzwords to pass the screening software but not too much so that the recruiter doesn’t understand a word about what your duties and skills are at your current job.&lt;/p&gt;
+
+&lt;p&gt;To take this further, find 10 ads with similar descriptions: send 5 resumes with one layout and 5 resumes with another one. Wait for the responses if any. If you get more hits with one particular resume, then discard the other. Rinse and repeat. Take the resume that got you those screening phone calls or coding challenges and make it better. Make two versions of it and find 10 other ads. You know the rest.&lt;/p&gt;
+
+&lt;p&gt;For those unfamiliar with this technique, it is widely used in advertising and is usually called: split testing. That technique helps you to see what works and what doesn’t. By continually refining the process and rewriting you resume, you will end up having no problem making it through the first stage of the interview process, that is getting the screening phone call from the recruiters.&lt;/p&gt;
+
+&lt;h3 id=&quot;linkedin-profile&quot;&gt;LinkedIn profile&lt;/h3&gt;
+
+&lt;p&gt;I find LinkedIn interesting for certain things but not really of any use at the beginning of the interview process. The problem is that the recruiter who works with you is not going to tell who his/her client is until later after you cleared another hurdle: the coding challenge. We will get to that in the next post. Nonetheless, if you want to make it as a software developer, you will need to have a complete profile with links to projects, testimonies from former colleagues or managers if possible and at least 50 connections. To get there, you need to make yourself known and send invitations to connect with you to people that you find interesting. In 3 words, grow your network! Having an incomplete profile could potentially disqualify you from getting through the first stage.&lt;/p&gt;
+
+&lt;h1 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h1&gt;
+
+&lt;p&gt;In the next post, we will discuss what happens when you resume catches the eye of a recruiter.&lt;/p&gt;
+
+&lt;p&gt;Until then, keep coding.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://yannhulot.github.io/blog/interviews-and-failures/&quot;&gt;Interviews and failures (part 1)&lt;/a&gt; was originally published by Yann hulot at &lt;a href=&quot;http://yannhulot.github.io&quot;&gt;Yann Hulot&lt;/a&gt; on June 02, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Freecodecamp challenge&#58; Basic Javascript II]]></title>
+  <link rel="alternate" type="text/html" href="http://yannhulot.github.io/blog/freecodecamp-second-challenge/" />
+  <id>http://yannhulot.github.io/blog/freecodecamp-second-challenge</id>
+  <published>2016-05-13T00:00:00+10:00</published>
+  <updated>2016-05-13T00:00:00+10:00</updated>
+  <author>
+    <name>Yann Hulot</name>
+    <uri>http://yannhulot.github.io</uri>
+    <email>yhulot78410@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h1 id=&quot;its-been-a-while&quot;&gt;It’s been a while!&lt;/h1&gt;
+
+&lt;p&gt;I have been really busy lately between my internship and some side projects. I also attended an interview for another internship(paid this time), that is supposed to start in June at a company called Tanda.&lt;/p&gt;
+
+&lt;p&gt;I am also back to work on the FreeCodeCamp curriculum and slowly making my way through the d3.js projects. Finally, I am also learning C# in order to create a console app that will compare two spreadsheets and output the differences between the two.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenge&quot;&gt;The challenge&lt;/h2&gt;
+
+&lt;p&gt;This one is straight forward: factorialize a number.&lt;/p&gt;
+
+&lt;h3 id=&quot;pseudo-code&quot;&gt;Pseudo-code:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Pass a number to a function&lt;/li&gt;
+  &lt;li&gt;if number is equal to 0 return 1&lt;/li&gt;
+  &lt;li&gt;if the number is greater than 0, use recursion to invoke the function itself after subtracting 1 from the number until number equal 0.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;code-snippet&quot;&gt;Code Snippet&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;factorialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;factorialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;factorialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;final-word&quot;&gt;Final word&lt;/h2&gt;
+
+&lt;p&gt;If you feel lost or desperate, talk to somebody who is going through the same thing as you. You can join the freecodecamp &lt;a href=&quot;https://gitter.im/FreeCodeCamp/FreeCodeCamp&quot;&gt;Gitter channels&lt;/a&gt; or talk to members of other coding groups.&lt;/p&gt;
+
+&lt;p&gt;In any case, do not give up.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://yannhulot.github.io/blog/freecodecamp-second-challenge/&quot;&gt;Freecodecamp challenge&amp;#58; Basic Javascript II&lt;/a&gt; was originally published by Yann hulot at &lt;a href=&quot;http://yannhulot.github.io&quot;&gt;Yann Hulot&lt;/a&gt; on May 13, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Multiple Independent Discovery]]></title>
+  <link rel="alternate" type="text/html" href="http://yannhulot.github.io/blog/multiple-independent-discovery/" />
+  <id>http://yannhulot.github.io/blog/multiple-independent-discovery</id>
+  <published>2016-04-10T00:00:00+10:00</published>
+  <updated>2016-04-10T00:00:00+10:00</updated>
+  <author>
+    <name>Yann Hulot</name>
+    <uri>http://yannhulot.github.io</uri>
+    <email>yhulot78410@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Picture this, you are in the shower scrubbing yourself and all of a sudden you have a flash, like a revelation. You just had a great idea or you think you did anyway! You dry yourself up quickly, get your laptop and start googling frenetically.
+Much to your dismay, you discover that they are not only one but at least 5 companies that have turned &lt;strong&gt;your&lt;/strong&gt; idea into a product and are actively selling it.&lt;/p&gt;
+
+&lt;p&gt;Your dreams are shattered and it takes a while for you to go back to what you were doing before that idea came to you. As Tupac said: &lt;strong&gt;&lt;em&gt;Life Goes On&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You have probably been there and so have I. It is called &lt;strong&gt;&lt;em&gt;Multiple independent discovery&lt;/em&gt;&lt;/strong&gt;. Given the size of the Earth’s population, one can only assume that many people are going to come up with the same solution to a given problem.&lt;/p&gt;
+
+&lt;p&gt;If we look at businesses, we can see that the same principle apply. What makes a Samsung Galaxy S6 Plus different from an Iphone S6 Plus? They both solve the same basic problem, communication. The key there is the execution.&lt;/p&gt;
+
+&lt;p&gt;When I first arrived in Australia, I came up with the idea to create a job board that I thought could change completely how casual workers would find jobs. At the time, I was right. There were few competitors besides &lt;a href=&quot;http://gumtree.com.au&quot;&gt;Gumtree&lt;/a&gt; and &lt;a href=&quot;https://au.oneshiftjobs.com/&quot;&gt;OneShift&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fast forward 2 years, and competitors have popped up everywhere. What happened? The answer is again: &lt;strong&gt;&lt;em&gt;Multiple Independent discovery&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jobcompanion.io&quot;&gt;JobCompanion&lt;/a&gt; had many flaws but the one that ultimately led me to shut it down was that it took roughly 2 years to become operational. The reason for such a long development time is due to outside circumstances and also due to my own shortcomings.&lt;/p&gt;
+
+&lt;p&gt;Even though that project failed, I learned a lot of lessons along the way. The first one being: Shipping a half-finished  product in a short amount of time is better than no product at all.&lt;/p&gt;
+
+&lt;p&gt;Lesson number 2: It’s fine if the idea you had for a product or a service is not truly original as long as it is better than the product or service of your competitors.&lt;/p&gt;
+
+&lt;p&gt;Lesson number 3: Execution is key, ideas are great but virtually worthless. If you have an idea, act on it, make a sale, showcase it, make it real. Only then will you know if it is viable. If it is only in your head then it may as well not  exist.&lt;/p&gt;
+
+&lt;p&gt;As a final word, I would like to stress out that failure is normal. Most business tycoons, artists and world leaders have failed at some point in their lives. In fact I will go as far as saying that failure is entirely part of success. So, don’t be afraid! Build something worthwhile and have some fun while doing it.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://yannhulot.github.io/blog/multiple-independent-discovery/&quot;&gt;Multiple Independent Discovery&lt;/a&gt; was originally published by Yann hulot at &lt;a href=&quot;http://yannhulot.github.io&quot;&gt;Yann Hulot&lt;/a&gt; on April 10, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Freecodecamp challenge&#58; Basic Javascript I]]></title>
+  <link rel="alternate" type="text/html" href="http://yannhulot.github.io/blog/freecodecamp-first-challenge/" />
+  <id>http://yannhulot.github.io/blog/freecodecamp-first-challenge</id>
+  <published>2016-04-04T00:00:00+10:00</published>
+  <updated>2016-04-04T00:00:00+10:00</updated>
+  <author>
+    <name>Yann Hulot</name>
+    <uri>http://yannhulot.github.io</uri>
+    <email>yhulot78410@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h1 id=&quot;congratulations-on-tackling-your-first-challenge&quot;&gt;Congratulations on tackling your first challenge!&lt;/h1&gt;
+
+&lt;p&gt;After finishing the first part of Freecodecamp, a lot of people find themselves lost when they first start the basic
+Javascript challenges. If you have experienced this or are experiencing it at the moment, do not despair. It will pass.&lt;/p&gt;
+
+&lt;p&gt;Remember, you can do this!&lt;/p&gt;
+
+&lt;h2 id=&quot;first-step&quot;&gt;First step&lt;/h2&gt;
+
+&lt;p&gt;Read the description of the challenge. Many times, I would start a challenge and speed read through the description then halfway through the challenge, I would find out that I had missed a crucial piece of information. If you do not want to waste your time like me, read the challenge description thoroughly.&lt;/p&gt;
+
+&lt;h2 id=&quot;read-the-docs&quot;&gt;Read the docs&lt;/h2&gt;
+
+&lt;p&gt;I know that reading multiples pages of documents about Javascript functions can be boring or/and overwhelming. Just like you, I use to not read them but I have changed and so will you.  You may wonder why you should read the docs if you don’t understand half of it?&lt;/p&gt;
+
+&lt;p&gt;The reason is simple, as a developer , you will have to read and understand other people’s docs when you’ll be tasked to maintain legacy code. Therefore, you better get use to read documents and try to make sense of them as much as you can.
+It doesn’t matter if you do not understand everything, the important part is that it becomes a part of your workflow.&lt;/p&gt;
+
+&lt;p&gt;Remember Copy/Pasting from stack overflow without understanding will make you feel good in the short-term but you won’t learn a thing. Don’t be lazy!&lt;/p&gt;
+
+&lt;h2 id=&quot;write-pseudo-code&quot;&gt;Write pseudo-code&lt;/h2&gt;
+
+&lt;p&gt;Before writing any actual code, it is good practice to write in pseudo-code aka English what the goal of this particular challenge is and what steps you must go through in order to achieve the desired outcome.&lt;/p&gt;
+
+&lt;h3 id=&quot;for-example-in-this-case&quot;&gt;For example in this case:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;split a string into an array&lt;/li&gt;
+  &lt;li&gt;reverse the order of the array’s elements&lt;/li&gt;
+  &lt;li&gt;join or glue together the array’s elements&lt;/li&gt;
+  &lt;li&gt;return(print) the new string to the console&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-code&quot;&gt;The Code&lt;/h2&gt;
+
+&lt;p&gt;As you will see below I have called my function &lt;strong&gt;reverseString&lt;/strong&gt; but you can call yours any name you want. Same goes for str. Think of &lt;strong&gt;str&lt;/strong&gt; as a placeholder for the real string(word) that will be passed as a parameter to the function.&lt;/p&gt;
+
+&lt;p&gt;You will notice that &lt;strong&gt;String&lt;/strong&gt; starts with a capital letter and &lt;strong&gt;reverse&lt;/strong&gt; with a regular one. This is a naming convention called &lt;em&gt;camelCase&lt;/em&gt; or &lt;em&gt;camelBack&lt;/em&gt; in this case. You can read more about it &lt;a href=&quot;https://en.wikipedia.org/wiki/CamelCase&quot;&gt;here&lt;/a&gt; and should start using it as soon as possible in your challenges.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-snippet&quot;&gt;Code Snippet&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;reverseString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;myString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;reverseString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hello&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;final-word&quot;&gt;Final word&lt;/h2&gt;
+
+&lt;p&gt;If you feel lost or desperate, talk to somebody who is going through the same thing as you. You can join the freecodecamp &lt;a href=&quot;https://gitter.im/FreeCodeCamp/FreeCodeCamp&quot;&gt;Gitter channels&lt;/a&gt; or talk to members of other coding groups.&lt;/p&gt;
+
+&lt;p&gt;In any case, do not give up.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://yannhulot.github.io/blog/freecodecamp-first-challenge/&quot;&gt;Freecodecamp challenge&amp;#58; Basic Javascript I&lt;/a&gt; was originally published by Yann hulot at &lt;a href=&quot;http://yannhulot.github.io&quot;&gt;Yann Hulot&lt;/a&gt; on April 04, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Yet Another 'Hello World']]></title>
+  <link rel="alternate" type="text/html" href="http://yannhulot.github.io/blog/yet-another-hello-world/" />
+  <id>http://yannhulot.github.io/blog/yet-another-hello-world</id>
+  <published>2016-03-31T10:12:19+10:00</published>
+  <updated>2016-03-31T10:12:19+10:00</updated>
+  <author>
+    <name>Yann Hulot</name>
+    <uri>http://yannhulot.github.io</uri>
+    <email>yhulot78410@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h1 id=&quot;welcome&quot;&gt;Welcome&lt;/h1&gt;
+
+&lt;p&gt;This will be my introductory post, I hope you will enjoy my company during this journey.&lt;/p&gt;
+
+&lt;p&gt;It all started about 2.5 years ago when I first came to Australia. Back then, I use to work in construction as a labourer.&lt;/p&gt;
+
+&lt;p&gt;Having trouble finding a job through the regular channels such as &lt;a href=&quot;http://gumtree.com.au&quot;&gt;Gumtree&lt;/a&gt; or &lt;a href=&quot;http://seek.com.au&quot;&gt;Seek&lt;/a&gt;, I dreamed of a way to be contacted by employers with available casual jobs instead of me having to go through many job offers and applying to all of them.&lt;/p&gt;
+
+&lt;p&gt;Not having the skills to build it myself, I ironically posted an ad on Gumtree in order to find like minded people who
+would be available to work with me.&lt;/p&gt;
+
+&lt;p&gt;From this idea was born &lt;a href=&quot;http://jobcompanion.io&quot;&gt;JobCompanion&lt;/a&gt;. I believed in the idea but my lack of funding and the length of development
+made this project come to a standstill. I have now decided to stop working on this project but maybe go back to it later on after landing a full time job. I will go through more detailed explanations about the failure of this project in a future post.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, it has been a great learning experience and made me discover that I wanted to work in the tech industry.&lt;/p&gt;
+
+&lt;p&gt;Because I did  not have time to go back to school to learn web development, I started using MOOCS such as &lt;a href=&quot;http://teamtreehouse.com&quot;&gt;TeamTreeHouse&lt;/a&gt;, &lt;a href=&quot;http://codecademy.com&quot;&gt;CodeCademy&lt;/a&gt; and &lt;a href=&quot;http://freecodecamp.com&quot;&gt;FreeCodeCamp&lt;/a&gt;. Eventually after completing a dozen front-end &lt;a href=&quot;http://yannhulot.github.io/portfolio&quot;&gt;projects&lt;/a&gt;, I decided to find an internship in a startup. A month ago, I decided to join &lt;a href=&quot;http://modhub.com&quot;&gt;Modhub&lt;/a&gt; and have been learning Ruby On rails as well as developing the user interface of their &lt;a href=&quot;http://help.modhub.io&quot;&gt;support site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This blog will be my diary and I will use it as well to post the various solutions to all the FreeCodeCamp challenges.
+You can find the solutions directly on my &lt;a href=&quot;https://github.com/yannhulot&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My goal is to find full-time employment in a web agency or in a startup by the end of June.&lt;/p&gt;
+
+&lt;p&gt;In the meantime, I will keep you updated about my learning process and my daily activities at Modhub.&lt;/p&gt;
+
+&lt;p&gt;keep on coding.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://yannhulot.github.io/blog/yet-another-hello-world/&quot;&gt;Yet Another &#39;Hello World&#39;&lt;/a&gt; was originally published by Yann hulot at &lt;a href=&quot;http://yannhulot.github.io&quot;&gt;Yann Hulot&lt;/a&gt; on March 31, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>

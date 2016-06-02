@@ -1,0 +1,271 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Freecodecamp challenge&#58; Basic Javascript II &#8211; Yann Hulot</title>
+<meta name="description" content="Second Javascript Challenge ">
+<meta name="keywords" content="javascript, freecodecamp">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Freecodecamp challenge&#58; Basic Javascript II">
+<meta name="twitter:description" content="Second Javascript Challenge ">
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yannhulot.github.io/images/">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Freecodecamp challenge&#58; Basic Javascript II">
+<meta property="og:description" content="Second Javascript Challenge ">
+<meta property="og:url" content="http://yannhulot.github.io/blog/freecodecamp-second-challenge/">
+<meta property="og:site_name" content="Yann Hulot">
+
+
+
+
+
+<link rel="canonical" href="http://yannhulot.github.io/blog/freecodecamp-second-challenge/">
+<link href="http://yannhulot.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Yann Hulot Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://yannhulot.github.io/assets/css/main.css">
+
+<!-- Webfonts -->
+
+<!--<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+-->
+
+<script src="https://use.typekit.net/eha7mxl.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="http://yannhulot.github.io/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="http://yannhulot.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Masonry -->
+<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+
+<!-- Modernizr -->
+<script src="http://yannhulot.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://yannhulot.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://yannhulot.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://yannhulot.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://yannhulot.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://yannhulot.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://yannhulot.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+  <div class="navigation-wrapper">
+  	<nav role="navigation" id="site-nav" class="animated drop">
+  	    <ul>
+        
+  		    
+  		    <li><a href="http://yannhulot.github.io/" >Home</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/about/" >About</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/portfolio/" >Portfolio</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/blog/" >Blog</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/search/" >Search</a></li>
+  		  
+  		    
+  		    <li><a href="http://yannhulot.github.io/contact/" >Contact</a></li>
+  		  
+  	    </ul>
+  	</nav>
+  </div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<header class="masthead">
+	<div class="wrap">
+      
+      
+	</div>
+</header><!-- /.masthead -->
+
+<div class="js-menu-screen menu-screen"></div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <ul class="entry-tags">
+          <li><a href="http://yannhulot.github.io/tags/#javascript" title="Pages tagged javascript">javascript</a></li><li><a href="http://yannhulot.github.io/tags/#freecodecamp" title="Pages tagged freecodecamp">freecodecamp</a></li>
+        </ul>
+        
+          <h1 class="entry-title">Freecodecamp challenge&#58; Basic Javascript II</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+          <img src="http://yannhulot.github.io/images/profile.jpg" class="bio-photo" alt="Yann Hulot bio photo"></a>
+        
+        <span class="author vcard">By <span class="fn">Yann Hulot</span></span>
+        <span class="entry-date date published"><time datetime="2016-05-13T00:00:00+10:00"><i class="fa fa-calendar-o"></i> May 13, 2016</time></span>
+        
+        <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
+        <span class="social-share-twitter">
+  <a href="https://twitter.com/intent/tweet?hashtags=javascript,freecodecamp&amp;text=Freecodecamp%20challenge&amp;#58;%20Basic%20Javascript%20II&amp;url=http://yannhulot.github.io/blog/freecodecamp-second-challenge/" title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i> Tweet</a>
+</span>
+<span class="social-share-facebook">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://yannhulot.github.io/blog/freecodecamp-second-challenge/" title="Share on Facebook" itemprop="Facebook"><i class="fa fa-facebook-square"></i> Like</a>
+</span>
+<span class="social-share-googleplus">
+  <a href="https://plus.google.com/share?url=http://yannhulot.github.io/blog/freecodecamp-second-challenge/" title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-google-plus-square"></i> +1</a>
+</span>
+<!-- /.social-share -->
+        
+      </footer>
+      <div class="entry-content">
+        <h1 id="its-been-a-while">It’s been a while!</h1>
+
+<p>I have been really busy lately between my internship and some side projects. I also attended an interview for another internship(paid this time), that is supposed to start in June at a company called Tanda.</p>
+
+<p>I am also back to work on the FreeCodeCamp curriculum and slowly making my way through the d3.js projects. Finally, I am also learning C# in order to create a console app that will compare two spreadsheets and output the differences between the two.</p>
+
+<h2 id="the-challenge">The challenge</h2>
+
+<p>This one is straight forward: factorialize a number.</p>
+
+<h3 id="pseudo-code">Pseudo-code:</h3>
+
+<ol>
+  <li>Pass a number to a function</li>
+  <li>if number is equal to 0 return 1</li>
+  <li>if the number is greater than 0, use recursion to invoke the function itself after subtracting 1 from the number until number equal 0.</li>
+</ol>
+
+<h3 id="code-snippet">Code Snippet</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">factorialize</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">number</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">number</span> <span class="o">*</span> <span class="nx">factorialize</span><span class="p">(</span><span class="nx">number</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nx">factorialize</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span></code></pre></figure>
+
+<h2 id="final-word">Final word</h2>
+
+<p>If you feel lost or desperate, talk to somebody who is going through the same thing as you. You can join the freecodecamp <a href="https://gitter.im/FreeCodeCamp/FreeCodeCamp">Gitter channels</a> or talk to members of other coding groups.</p>
+
+<p>In any case, do not give up.</p>
+
+
+        
+          <div id="disqus_thread"></div><!-- /#disqus_thread -->
+          
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'yannhulot'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://yannhulot.github.io/blog/multiple-independent-discovery/" class="btn" title="Multiple Independent Discovery">Previous</a>
+      
+      
+        <a href="http://yannhulot.github.io/blog/interviews-and-failures/" class="btn" title="Interviews and failures (part 1)">Next</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2016 Yann hulot. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" rel="nofollow">So Simple Theme</a>.</span>
+<div class="social-icons">
+	
+	<a href="https://facebook.com/yhulot" title="Yann hulot on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+	<a href="https://plus.google.com/+u/0/106713306439387750207/" title="Yann hulot on Google+" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+	<a href="https://linkedin.com/in/yannhulot" title="Yann hulot on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+	<a href="http://stackoverflow.com/users/6021287/yann-hulot" title="Yann hulot on StackExchange" target="_blank"><i class="fa fa-stack-exchange fa-2x"></i></a>
+	
+	
+	<a href="https://github.com/yannhulot" title="Yann hulot on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+	
+  
+	
+	<a href="https://codepen.io/yannhulot/" title="Yann hulot on Codepen" target="_blank"><i class="fa fa-codepen fa-2x"></i></a>
+  <a href="http://yannhulot.github.io/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script type="text/javascript">
+  var BASE_URL = 'http://yannhulot.github.io';
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://yannhulot.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://yannhulot.github.io/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>
